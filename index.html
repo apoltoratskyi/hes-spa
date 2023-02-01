@@ -4,32 +4,81 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <title>About</title>
-    <link rel="stylesheet" href="css/about.css" />
+    <style>
+        .row {
+            display: flex;
+        }
+        .column {
+            flex: 50%;
+        }
+        .footer {
+            padding: 5px 5px;
+            position: fixed;
+            bottom: 0;
+            width: 25%;
+            border: 10px solid #FFFFFFFF;
+            margin: 10px;
+            right: 0;
+            background-color: lightblue;
+        }
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        h3 {
+            color: darkblue;
+            margin-top: 50px;
+            font-family: Copperplate;
+        }
+        article {
+            font-family: Courier;
+            font-size: 15px;
+            margin-top: 20px;
+            height: 25%;
+            line-height: 20pt;
+        }
+    </style>
 
 </head>
 <body>
     <div class="row">
         <div class="column">
-            <img src="media/DSC00157-2.png" alt="me" width="98%" height="100%">
+            <img alt="Death valley" src="media/DSC00157-2.png" width="98%" height="100%">
         </div>
         <div class="column">
             <div class="main">
                 <h3>Me</h3>
-                <p>
-                    Hello, my name is Andrii.<br> I'm from Los Angeles, California.
-                </p>
+                <hr/>
+                <article>
+                    Hello, my name is Andrii. I'm from Ukraine 🇺🇦.
+                    Live in Los Angeles.
+                </article>
 
                 <h3>My job</h3>
-                <p>
-                    I'm quality assurance engineer. Work full-time on e-commerce projects.
-                    I do not have much of development background. I accomplished CSCI E-3 "Introduction to Web Programming using JavaScript" and
-                    have some basic HTML and CSS skills. PHP - beginner level.
-                </p>
+                <hr/>
+                <article>
+                    I'm quality assurance engineer. Work full-time at Adobe.
+                    I do not have much of development background with JS. I accomplished CSCI E-3 "Introduction to Web Programming using JavaScript"  last semester and
+                    have some basic HTML and CSS skills. PHP, Python - beginner level.
+                </article>
+
+                <h3>Favorite places</h3>
+                <hr/>
+                <article>
+                    <ol>
+                        <li>Death Valley</li>
+                        <li>Pacific coast highway</li>
+                    </ol>
+                </article>
 
                 <h3>My favorite restaurant</h3>
-
+                <hr/>
                 <p>
-                    <a href="https://www.olivegarden.com">Olive Garden</a>
+                    <a href="https://www.olivegarden.com">Olive Garden</a> <br>
+                    Italian kitchen
                 </p>
             </div>
             <div class="footer">
